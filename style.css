@@ -94,7 +94,7 @@ input{
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    height: 860px;
+    height: 900px;
     border: solid  1px rgb(187, 181, 181);
     padding: 15px;
 }
@@ -127,7 +127,13 @@ input{
     margin: 18px 0px;
 }
 .mid{
-    margin: 16px 0px;
+    margin: 20px 0px;
+}
+.spa{
+    margin-bottom: 57px;
+}
+.tn{
+    margin-bottom: 38px;
 }
 .mrg > h3{
     margin-top: 20px;
@@ -174,6 +180,7 @@ input{
 }
 .operazioni{
     text-align: center;
+    font-size: 30px;
 }
 .six{
     display: flex;
@@ -197,4 +204,119 @@ input{
     display: flex;
     flex-direction: column;
     margin: 70px 350px;
+}
+.psn{
+    position: relative;
+}
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(100% / 3);
+    height: 629px;
+    align-items: center;
+}
+.ptn{
+    max-width: calc(100% / 2);
+    height: calc(100% / 2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.spn{
+    width: 180px;
+    margin: 40% 22%;
+    filter: invert(1);
+}
+.grn{
+    background-color: rgb(95, 182, 95);
+}
+.prp{
+    background-color: #60092b;
+}
+.blu{
+    background-color: #0093ce;
+}
+.red{
+    background-color: #ff1b1c;
+}
+.bbp{
+    background-color: #f5f5f5;
+    position: absolute;
+    max-width: calc(100% / 3);
+    right: calc(100% / 3);
+    padding: 40px;
+    height: 629px;
+    overflow-y: auto;
+}
+.business{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    gap: 30px;
+    background-color: lightblue;
+}
+.az{
+    font-size: 40px;
+}
+.try{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
+.it{
+    background-size: contain;
+    background-color: white;
+}
+.dom{
+    display: flex;
+    margin: 70px 350px 30px 350px;
+    font-size: 30px;
+}
+.faq{
+    margin: 0px 350px;
+}
+.bla > br{
+    color: grey;
+}
+.bla > h3{
+    margin: 30px 0px;
+}
+footer{
+    background-color: black;
+}
+.foot{
+    margin: 70px 350px 0px 350px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 350px;
+    gap: 46px;
+}
+.dup{
+    padding: 16px;
+    margin-top: 60px;
+}
+.dup > p{
+    margin: 20px 0px;
+}
+.lang{
+    display: flex;
+    background-color: black;
+    margin: 0px 350px;
+    height: 50px;
+    align-items: center;
+}
+.ft{
+    border-color: grey;
+    margin: 10px 1430px 10px 355px;
+}
+.it{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
 }
